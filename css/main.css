@@ -31,7 +31,7 @@
 
 body {
   background-image: url(../images/Bez-názvu-1\ 1.png);
-  background-size: 2560px 5000px;
+  background-size: 2560px 10000px;
   background-position: center center;
   background-repeat: no-repeat;
   font-family: "Roboto";
@@ -315,6 +315,19 @@ p {
   gap: 200px;
 }
 
+@media (max-width: 1024px) {
+  .results-top-top {
+    gap: 50px;
+    flex-direction: column;
+  }
+  .results-top-bottom {
+    gap: 50px;
+    flex-direction: column;
+  }
+  .web-sites {
+    flex-direction: column;
+  }
+}
 .results-bottom {
   display: flex;
   flex-direction: column;
@@ -443,4 +456,25 @@ p {
   justify-content: space-between;
   margin-top: 100px;
   gap: 270px;
+}
+
+@media (max-width: 1024px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .footer-sm-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */

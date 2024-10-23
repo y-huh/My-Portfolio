@@ -19,6 +19,7 @@ p{
     margin-bottom: 75px;
     margin-top: 50px;
 }
+
 .results-text{
     color: white;
     margin-top: 5px;
@@ -41,6 +42,19 @@ line-height: 24px;
     display: flex;
     justify-content: space-between;
     gap: 200px;
+}
+@media (max-width:1024px){
+    .results-top-top{
+        gap: 50px;
+        flex-direction: column;
+    }
+    .results-top-bottom{
+        gap: 50px;
+        flex-direction: column;
+    }
+    .web-sites{
+        flex-direction: column;
+    }
 }
 .results-bottom {
     display: flex;
