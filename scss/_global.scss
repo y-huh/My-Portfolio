@@ -6,13 +6,19 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
-body{
-    // font-family: "", "";
+body {
+    background-image:url(../images/Bez-názvu-1\ 1.png) ;
+    background-size: 2560px 5000px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto';
+    max-width: 100vw;
+    max-height: 1000px;
 }
 
 .container{
-    // width: ___px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 20px;
+
 }

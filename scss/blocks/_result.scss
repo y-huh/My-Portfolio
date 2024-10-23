@@ -1,0 +1,118 @@
+.results {
+    padding: 100px 0 100px 0;
+}
+p{
+    opacity: 0.7;
+}
+.container {
+}
+.results-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.results-top-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+.results-text{
+    color: white;
+    margin-top: 5px;
+    opacity: 0.7;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.pl-img {
+    width: 100px;
+    height: 100px;
+}
+.results-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-bottom: 20px;
+        color: white;}
+.results-top-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+.results-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+.web-sites-title {
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-bottom: 20px;
+        color: white;
+}
+.web-sites {
+    display: flex;
+    gap: 50px;
+}
+.site-wrapper {
+    max-width: 375px;
+    text-align: center;
+    background-color: rgb(57, 11, 88);
+    border-radius: 24px;
+
+
+}
+.wrapper-wrapper-img {
+border-radius: 24px;
+}
+.wrapper-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+font-size: 24px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+
+
+}
+.wrapper-text {
+    margin-bottom: 10px;
+    color: white;
+font-size: 18px;
+font-weight: 300;
+line-height: 26px;
+text-align: center;
+
+}
+.wrapper-strong{
+    color: white;
+font-size: 14px;
+font-weight: 300;
+line-height: 26px;
+text-align: left;
+
+}
+.git-wrapper{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.vercell {
+    color: grey;
+
+}
+.github {
+    color: grey;
+
+}
+    
